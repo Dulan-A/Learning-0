@@ -1,0 +1,13 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+      ```{r, echo=F}
+n <- nrow(mtcars)
+```
+Here `r n` cars are compared
